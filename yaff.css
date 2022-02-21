@@ -99,9 +99,13 @@ h6{
 .yaff.article{
     margin: 16px;
     padding: 16px;
-    width: 1024px;
     border: 1px solid var(--article-border);
     border-radius: 8px;
+    width: 1280px;
+}
+
+.yaff.simple-article{
+    width: 1280px;
 }
 
 .yaff.menu-bar{
@@ -115,7 +119,7 @@ h6{
 
 .yaff.segment{
     text-align: center;
-    width: 100%;
+    min-width: 100%;
 }
 
 .yaff.segment > *{
@@ -125,4 +129,34 @@ h6{
 
 .yaff.marginless{
     margin: 0;
+}
+
+@media screen and (max-width: 1340px){
+    .yaff.article{
+        width: 1024px;
+    }
+
+    .yaff.simple-article{
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1084px){
+    .yaff.article{
+        width: 768px;
+    }
+
+    .yaff.simple-article{
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 828px){
+    .yaff.article{
+        width: 90%;
+    }
+
+    .yaff.simple-article{
+        width: 90%;
+    }
 }
