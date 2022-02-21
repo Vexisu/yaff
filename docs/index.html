@@ -5,10 +5,11 @@
     <title>Yaff - Yet another front-end framework.</title>
     <link rel="stylesheet" href="yaff.css">
     <style>
-        #description{
+        #description {
             margin-bottom: 20px;
         }
-        main{
+
+        #content {
             display: flex;
             align-items: center;
             height: 100vh;
@@ -17,12 +18,17 @@
     </style>
 </head>
 <body>
-    <main>
-        <div id="content" class="yaff segment">
+<main>
+    <div id="content">
+        <div class="yaff segment">
             <h1>Yaff</h1>
             <p id="description">Yet another front-end framework.</p>
-            <a href="https://github.com/Vexisu/yaff/" class="yaff button">Github</a>
+            <div>
+                <a href="https://github.com/Vexisu/yaff/" class="yaff button">Github</a>
+                <a href="https://github.com/Vexisu/yaff/wiki" class="yaff button">Documentation</a>
+            </div>
         </div>
-    </main>
+    </div>
+</main>
 </body>
 </html>
