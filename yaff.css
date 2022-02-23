@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+KR&family=Noto+Sans+SC&display=swap');
-:root{
+
+:root {
     --default-font-color: #292929;
     --button-color: #e9e9e9;
     --button-border: #b3b3b3;
@@ -16,7 +17,7 @@
     --article-border: #e0e0e0;
 }
 
-*{
+* {
     font-family: "Noto Sans", Verdana, Geneva, Tahoma, sans-serif;
     color: var(--default-font-color);
     font-size: 11pt;
@@ -24,40 +25,40 @@
     padding: 0;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-p{
+p {
     margin: 8px 0;
 }
 
-h1{
+h1 {
     font-size: 42pt;
 }
 
-h2{
+h2 {
     font-size: 32pt;
 }
 
-h3{
+h3 {
     font-size: 26pt;
 }
 
-h4{
+h4 {
     font-size: 22pt;
 }
 
-h5{
+h5 {
     font-size: 19pt;
 }
 
-h6{
+h6 {
     font-size: 14pt;
 }
 
-.yaff.button{
+.yaff.button {
     display: inline-block;
     margin: 0 2px;
     padding: 6px 14px;
@@ -68,35 +69,35 @@ h6{
     border-radius: 4px;
 }
 
-.yaff.button:hover{
+.yaff.button:hover {
     background-color: var(--button-hover-color);
     border-color: var(--button-hover-border);
     color: var(--button-hover-text);
 }
 
-.yaff.simple-button{
-    display:block;
+.yaff.simple-button {
+    display: inline-block;
     margin: 2px;
     padding: 6px 14px;
     color: var(--simple-button-text);
     border-radius: 4px;
 }
 
-.yaff.simple-button:hover{
+.yaff.simple-button:hover {
     background-color: var(--simple-button-hover-color);
     color: var(--simple-button-hover-text);
 }
 
-.yaff.link{
+.yaff.link {
     color: var(--link-color);
     text-decoration: underline;
 }
 
-.yaff.link:hover{
+.yaff.link:hover {
     color: var(--link-hover-color);
 }
 
-.yaff.article{
+.yaff.article {
     margin: 16px;
     padding: 16px;
     border: 1px solid var(--article-border);
@@ -105,14 +106,14 @@ h6{
     text-align: left;
 }
 
-.yaff.simple-article{
+.yaff.simple-article {
     width: 1280px;
     margin: 16px;
     padding: 16px;
     text-align: left;
 }
 
-.yaff.menu-bar{
+.yaff.menu-bar {
     height: 48px;
     padding: 0 12px;
     display: flex;
@@ -121,46 +122,46 @@ h6{
     background-color: var(--menu-bar-color);
 }
 
-.yaff.segment{
+.yaff.segment {
     text-align: center;
     min-width: 100%;
 }
 
-.yaff.segment > *{
+.yaff.segment > * {
     margin-left: auto;
     margin-right: auto;
 }
 
-.yaff.marginless{
+.yaff.marginless {
     margin: 0;
 }
 
-@media screen and (max-width: 1340px){
-    .yaff.article{
+@media screen and (max-width: 1340px) {
+    .yaff.article {
         width: 1024px;
     }
 
-    .yaff.simple-article{
+    .yaff.simple-article {
         width: 1024px;
     }
 }
 
-@media screen and (max-width: 1084px){
-    .yaff.article{
+@media screen and (max-width: 1084px) {
+    .yaff.article {
         width: 768px;
     }
 
-    .yaff.simple-article{
+    .yaff.simple-article {
         width: 768px;
     }
 }
 
-@media screen and (max-width: 828px){
-    .yaff.article{
+@media screen and (max-width: 828px) {
+    .yaff.article {
         width: 90%;
     }
 
-    .yaff.simple-article{
+    .yaff.simple-article {
         width: 90%;
     }
 }
