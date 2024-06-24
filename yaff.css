@@ -61,7 +61,6 @@ h6 {
 
 .yaff.button {
     display: inline-block;
-    margin: 4px;
     padding: 6px 14px;
     color: var(--button-text);
     background-color: var(--button-color);
@@ -78,7 +77,6 @@ h6 {
 
 .yaff.simple-button {
     display: inline-block;
-    margin: 4px;
     padding: 6px 14px;
     color: var(--simple-button-text);
     border-radius: 4px;
@@ -125,14 +123,14 @@ h6 {
 }
 
 .yaff.input {
-    margin: 4px;
+    margin: 0 0 8px 0;
     padding: 6px;
     border: 1px solid var(--input-border);
     border-radius: 4px;
 }
 
 .yaff.label {
-    margin: 4px;
+    margin: 0 0 4px 0;
 }
 
 .yaff.segment {
